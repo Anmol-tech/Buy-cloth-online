@@ -29,7 +29,7 @@ for (let x in cart) {
 				</div>
                 <div>
 					
-                    <span class="badge bg-primary rounded-pill">${cart[x].price}</span>
+                    <span class="badge bg-primary rounded-pill"> price : ${cart[x].price}</span>
 					<div><i class="fas fa-trash-alt delete-icon"></i></div>
 				</div>
 			`;
